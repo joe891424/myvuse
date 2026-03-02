@@ -1,0 +1,5 @@
+package com.newrelic.agent.android.tracing;
+
+/* JADX INFO: loaded from: classes6.dex */
+public class TracingInactiveException extends Exception {
+}

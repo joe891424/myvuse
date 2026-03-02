@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progress"
+    android:background="?attr/background_overlay_neutral1"
+    android:visibility="invisible"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/transparentLayer"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/spinnerContainer"
+        android:background="@drawable/rectangle_round_corners"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:elevation="6dp"
+            android:progressTint="?attr/brand_default"/>
+    </RelativeLayout>
+</RelativeLayout>

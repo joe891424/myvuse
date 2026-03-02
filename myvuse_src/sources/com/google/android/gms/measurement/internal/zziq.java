@@ -1,0 +1,10 @@
+package com.google.android.gms.measurement.internal;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-measurement-impl@@22.0.1 */
+/* JADX INFO: loaded from: classes3.dex */
+public enum zziq {
+    UNINITIALIZED,
+    DEFAULT,
+    DENIED,
+    GRANTED
+}

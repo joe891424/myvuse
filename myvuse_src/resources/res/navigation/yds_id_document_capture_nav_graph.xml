@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_document_capture_nav_graph"
+    app:startDestination="@+id/document_selection_nav_graph">
+    <include app:graph="@navigation/yds_document_selection_nav_graph"/>
+    <include app:graph="@navigation/yds_document_upload_nav_graph"/>
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <fragment
+        android:label="Document capture fragment"
+        android:name="com.yoti.mobile.android.documentcapture.p055id.view.scan.DocumentScanFragment"
+        android:id="@+id/id_nav_scan_fragment">
+        <argument
+            android:name="idScanConfigurationViewData"
+            app:argType="com.yoti.mobile.android.documentcapture.id.view.scan.IdScanConfigurationViewData"/>
+        <action
+            android:id="@+id/action_id_nav_scan_fragment_to_verifyYourDetailsFragment"
+            app:destination="@+id/verifyYourDetailsFragment"/>
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_scan"
+        app:destination="@+id/id_nav_scan_fragment"/>
+    <fragment
+        android:label="VerifyYourDetailsFragment"
+        android:name="com.yoti.mobile.android.documentcapture.p055id.view.verify.VerifyYourDetailsFragment"
+        android:id="@+id/verifyYourDetailsFragment"
+        android:layout="@layout/yds_fragment_verify_your_details">
+        <argument
+            android:name="documentScanResultViewData"
+            app:argType="com.yoti.mobile.android.documentcapture.id.view.scan.DocumentScanResultViewData"/>
+    </fragment>
+    <fragment
+        android:label="DocumentTextExtractionErrorFragment"
+        android:name="com.yoti.mobile.android.documentcapture.p055id.view.upload.DocumentTextExtractionErrorFragment"
+        android:id="@+id/documentTextExtractionErrorFragment">
+        <argument
+            android:name="documentTextExtractionError"
+            app:argType="com.yoti.mobile.android.documentcapture.id.view.upload.TextExtractionUploadFailureType$DocumentTextExtractionError"/>
+        <argument
+            android:name="documentScanResultViewData"
+            app:argType="com.yoti.mobile.android.documentcapture.id.view.scan.DocumentScanResultViewData"/>
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_document_text_extraction_error"
+        app:destination="@+id/documentTextExtractionErrorFragment"/>
+</navigation>

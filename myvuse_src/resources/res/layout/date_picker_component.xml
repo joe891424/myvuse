@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.yoti.mobile.android.common.p049ui.widgets.YotiEditText
+        android:id="@+id/date_picker_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textNoSuggestions"
+        app:icon="0x7f08020d"
+        app:iconTint="@color/yoti_theme_state_typography_neutral_mid"
+        app:inputDisabled="true"/>
+</LinearLayout>

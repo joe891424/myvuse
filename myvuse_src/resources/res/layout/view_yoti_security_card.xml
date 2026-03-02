@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contentConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="@dimen/security_card_icon_size"
+            android:layout_height="@dimen/security_card_icon_size"
+            android:layout_marginTop="@dimen/security_card_vertical_margin"
+            android:layout_marginBottom="@dimen/security_card_vertical_margin"
+            android:src="@drawable/ico_lock_locked"
+            android:layout_marginStart="@dimen/security_card_icon_start_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/contentTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:textAppearance="@style/Yoti.v4.TextAppearance.Mid"
+            android:gravity="start"
+            android:id="@+id/contentTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/security_card_vertical_margin"
+            android:layout_marginBottom="@dimen/security_card_vertical_margin"
+            android:layout_marginStart="@dimen/security_card_text_start_margin"
+            android:layout_marginEnd="@dimen/security_card_text_end_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iconImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Yoti.v4.Typography.Body.Small"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

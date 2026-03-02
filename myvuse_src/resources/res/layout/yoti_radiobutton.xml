@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:focusable="true"
+    android:longClickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/radiobutton_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no"
+        android:paddingStart="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="true"
+        app:lottie_autoPlay="false"
+        app:lottie_fileName="lottie/radiobutton_indicator_selected.json"
+        app:lottie_loop="false"/>
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/tv_additional"
+        android:layout_width="@dimen/radiobutton_additional_text_width"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@+id/radiobutton_indicator"/>
+    <RadioButton
+        android:textColor="@color/yoti_theme_state_typography_neutral_contrast"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/radio_button"
+        android:background="@null"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:button="@null"
+        android:importantForAccessibility="no"
+        android:paddingStart="16dp"
+        android:layout_toStartOf="@+id/tv_additional"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

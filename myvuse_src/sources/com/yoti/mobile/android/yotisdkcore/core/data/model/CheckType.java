@@ -1,0 +1,19 @@
+package com.yoti.mobile.android.yotisdkcore.core.data.model;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(m5597d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\b\r\b\u0086\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002j\u0002\b\u0003j\u0002\b\u0004j\u0002\b\u0005j\u0002\b\u0006j\u0002\b\u0007j\u0002\b\bj\u0002\b\tj\u0002\b\nj\u0002\b\u000bj\u0002\b\fj\u0002\b\r¨\u0006\u000e"}, m5598d2 = {"Lcom/yoti/mobile/android/yotisdkcore/core/data/model/CheckType;", "", "(Ljava/lang/String;I)V", "ID_DOCUMENT_AUTHENTICITY", "ID_DOCUMENT_COMPARISON", "ID_DOCUMENT_FACE_MATCH", "ID_DOCUMENT_TEXT_DATA_CHECK", "SUPPLEMENTARY_DOCUMENT_TEXT_DATA_CHECK", "THIRD_PARTY_IDENTITY", "LIVENESS", "IBV_VISUAL_REVIEW_CHECK", "DOCUMENT_SCHEME_VALIDITY_CHECK", "PROFILE_DOCUMENT_MATCH", "UNKNOWN", "yoti-sdk-core_productionRelease"}, m5599k = 1, m5600mv = {1, 6, 0}, m5602xi = 48)
+public enum CheckType {
+    ID_DOCUMENT_AUTHENTICITY,
+    ID_DOCUMENT_COMPARISON,
+    ID_DOCUMENT_FACE_MATCH,
+    ID_DOCUMENT_TEXT_DATA_CHECK,
+    SUPPLEMENTARY_DOCUMENT_TEXT_DATA_CHECK,
+    THIRD_PARTY_IDENTITY,
+    LIVENESS,
+    IBV_VISUAL_REVIEW_CHECK,
+    DOCUMENT_SCHEME_VALIDITY_CHECK,
+    PROFILE_DOCUMENT_MATCH,
+    UNKNOWN
+}

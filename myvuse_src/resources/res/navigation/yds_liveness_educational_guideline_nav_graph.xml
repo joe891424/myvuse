@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/yds_liveness_educational_guideline_nav_graph"
+    app:startDestination="@+id/livenessEducationalGuidelineFragment">
+    <fragment
+        android:label="LivenessEducationalGuidelineFragment"
+        android:name="com.yoti.mobile.android.liveness.view.educational.LivenessEducationalGuidelineFragment"
+        android:id="@+id/livenessEducationalGuidelineFragment">
+        <argument
+            android:name="guidelinesViewData"
+            app:argType="com.yoti.mobile.android.liveness.view.educational.LivenessGuidelinesViewData"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="@dimen/pin_entry_border_width"
+                        android:color="?attr/border_focus"/>
+                    <corners android:radius="@dimen/border_corner_radius"/>
+                </shape>
+            </item>
+            <item
+                android:top="@dimen/pin_entry_border_width"
+                android:right="@dimen/pin_entry_separator_start_margin"
+                android:bottom="@dimen/pin_entry_border_width">
+                <rotate
+                    android:fromDegrees="90"
+                    android:toDegrees="90">
+                    <shape android:shape="line">
+                        <stroke
+                            android:width="@dimen/pin_entry_separator_border_width"
+                            android:color="?attr/border_focus"/>
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="@dimen/pin_entry_border_width"
+                        android:color="?attr/border_default"/>
+                    <corners android:radius="@dimen/border_corner_radius"/>
+                </shape>
+            </item>
+            <item
+                android:top="@dimen/pin_entry_border_width"
+                android:right="@dimen/pin_entry_separator_start_margin"
+                android:bottom="@dimen/pin_entry_border_width">
+                <rotate
+                    android:fromDegrees="90"
+                    android:toDegrees="90">
+                    <shape android:shape="line">
+                        <stroke
+                            android:width="@dimen/pin_entry_separator_border_width"
+                            android:color="?attr/border_default"/>
+                    </shape>
+                </rotate>
+            </item>
+        </layer-list>
+    </item>
+</selector>

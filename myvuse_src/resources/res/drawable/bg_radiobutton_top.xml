@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="?attr/background_emphasis">
+            <item>
+                <selector>
+                    <item android:state_enabled="false">
+                        <layer-list>
+                            <item android:bottom="@dimen/radiobutton_hide_border">
+                                <shape android:shape="rectangle">
+                                    <solid
+                                        android:color="?attr/background_neutral1"
+                                        android:alpha="0.5"/>
+                                    <corners
+                                        android:topLeftRadius="@dimen/radiobutton_corner"
+                                        android:topRightRadius="@dimen/radiobutton_corner"/>
+                                </shape>
+                            </item>
+                        </layer-list>
+                    </item>
+                    <item>
+                        <layer-list>
+                            <item android:bottom="@dimen/radiobutton_hide_border">
+                                <shape android:shape="rectangle">
+                                    <solid android:color="?attr/background_neutral1"/>
+                                    <corners
+                                        android:topLeftRadius="@dimen/radiobutton_corner"
+                                        android:topRightRadius="@dimen/radiobutton_corner"/>
+                                </shape>
+                            </item>
+                        </layer-list>
+                    </item>
+                </selector>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <layer-list>
+                    <item android:bottom="@dimen/radiobutton_hide_border">
+                        <shape android:shape="rectangle">
+                            <corners
+                                android:topLeftRadius="@dimen/radiobutton_corner"
+                                android:topRightRadius="@dimen/radiobutton_corner"/>
+                            <stroke
+                                android:width="@dimen/radiobutton_border"
+                                android:color="?attr/border_disabled"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item>
+                <layer-list>
+                    <item android:bottom="@dimen/radiobutton_hide_border">
+                        <shape android:shape="rectangle">
+                            <corners
+                                android:topLeftRadius="@dimen/radiobutton_corner"
+                                android:topRightRadius="@dimen/radiobutton_corner"/>
+                            <stroke
+                                android:width="@dimen/radiobutton_border"
+                                android:color="?attr/border_default"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+        </selector>
+    </item>
+</layer-list>

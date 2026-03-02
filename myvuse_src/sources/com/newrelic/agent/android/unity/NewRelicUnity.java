@@ -1,0 +1,13 @@
+package com.newrelic.agent.android.unity;
+
+import java.lang.Thread;
+
+/* JADX INFO: loaded from: classes6.dex */
+public class NewRelicUnity {
+    static void handleUnityCrash(UnityException unityException) {
+        Thread.UncaughtExceptionHandler defaultUncaughtExceptionHandler = Thread.getDefaultUncaughtExceptionHandler();
+        if (defaultUncaughtExceptionHandler != null) {
+            defaultUncaughtExceptionHandler.uncaughtException(Thread.currentThread(), unityException);
+        }
+    }
+}

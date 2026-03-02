@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp">
+    <ImageView
+        android:id="@+id/uicomponent_number_picker_chevron1"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="@+id/uicomponent_number_picker_picker"
+        app:layout_constraintStart_toStartOf="@+id/uicomponent_number_picker_picker"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Yoti.v3.DatePickerChevronStyle"/>
+    <com.yoti.mobile.android.common.p049ui.widgets.YotiNumberPicker
+        android:id="@+id/uicomponent_number_picker_picker"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uicomponent_number_picker_chevron1"/>
+    <ImageView
+        android:id="@+id/uicomponent_number_picker_chevron2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/uicomponent_number_picker_picker"
+        app:layout_constraintStart_toStartOf="@+id/uicomponent_number_picker_picker"
+        app:layout_constraintTop_toBottomOf="@+id/uicomponent_number_picker_picker"
+        style="@style/Yoti.v3.DatePickerChevronStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/face_capture_nav_graph"
+    app:startDestination="@+id/liveness_biometric_and_educational_nav_graph">
+    <include app:graph="@navigation/yds_liveness_biometric_and_educational_nav_graph"/>
+    <include app:graph="@navigation/yds_liveness_upload_nav_graph"/>
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <fragment
+        android:label="FaceCaptureFragment"
+        android:name="com.yoti.mobile.android.facecapture.view.capture.FaceCaptureFragment"
+        android:id="@+id/faceCaptureFragment">
+        <argument
+            android:name="captureConfig"
+            app:argType="com.yoti.mobile.android.facecapture.view.capture.model.CaptureConfig"/>
+        <action
+            android:id="@+id/action_to_captureReview"
+            app:destination="@+id/faceCaptureReviewFragment"/>
+    </fragment>
+    <fragment
+        android:label="FaceCaptureReviewFragment"
+        android:name="com.yoti.mobile.android.facecapture.view.review.FaceCaptureReviewFragment"
+        android:id="@+id/faceCaptureReviewFragment">
+        <argument
+            android:name="livenessCapture"
+            app:argType="com.yoti.mobile.android.liveness.view.capture.model.ILivenessCapture"/>
+        <action
+            android:id="@+id/action_to_livenessUpload"
+            app:destination="@+id/livenessUploadFragment"/>
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_face_capture"
+        app:destination="@+id/faceCaptureFragment"/>
+</navigation>

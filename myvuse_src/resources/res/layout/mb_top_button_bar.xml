@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/MB_top_button_bar">
+    <ImageButton
+        android:id="@+id/defaultBackButton"
+        android:src="0x7f0802ae"
+        android:contentDescription="@string/mb_close"
+        style="@style/MB_top_button"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <ImageButton
+        android:id="@+id/defaultHelpButton"
+        android:visibility="gone"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/mb_help"
+        android:contentDescription="@string/mb_help"
+        style="@style/MB_top_button"/>
+    <ImageButton
+        android:id="@+id/defaultTorchButton"
+        android:src="0x7f0802af"
+        android:contentDescription="@string/mb_flashlight"
+        style="@style/MB_top_button"/>
+</LinearLayout>

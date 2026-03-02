@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <TextView
+        android:textColor="?attr/background_neutral3"
+        android:id="@+id/textViewHeaderLoading"
+        android:background="?attr/background_neutral3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/yds_document_selection_header_filling_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Yds.TextView.Title"/>
+    <View
+        android:id="@+id/viewIssuingCountryTitleLoading"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeaderLoading"
+        style="@style/Yds.LoadingView"/>
+    <View
+        android:id="@+id/viewIssuingCountryLoading"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewIssuingCountryTitleLoading"
+        style="@style/Yds.LoadingView"/>
+    <View
+        android:id="@+id/viewChangeCountryLinkLoading"
+        android:layout_width="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewIssuingCountryLoading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewIssuingCountryLoading"
+        style="@style/Yds.LoadingView"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/documentListLoading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewIssuingCountryLoading">
+        <include layout="@layout/yds_document_type_cell_loading_status"/>
+        <include layout="@layout/yds_document_type_cell_loading_status"/>
+        <include layout="@layout/yds_document_type_cell_loading_status"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/viewFindOutHowLinkLoading"
+        android:layout_width="226dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/documentListLoading"
+        style="@style/Yds.LoadingView"/>
+    <com.yoti.mobile.android.common.p049ui.widgets.HorizontalScrollingGradient
+        android:id="@+id/loadingShimmerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:drawable="@drawable/yds_loading_gradient"
+        app:drawableWidthDp="500dp"
+        app:durationMs="700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

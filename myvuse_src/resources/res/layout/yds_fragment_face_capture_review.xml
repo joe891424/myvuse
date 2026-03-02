@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+    <include
+        android:id="@+id/layoutCaptureReviewLoading"
+        layout="@layout/yds_fragment_face_capture_review_loading"/>
+    <include
+        android:id="@+id/layoutCaptureReviewSuccess"
+        android:visibility="gone"
+        layout="@layout/yds_fragment_face_capture_review_success"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

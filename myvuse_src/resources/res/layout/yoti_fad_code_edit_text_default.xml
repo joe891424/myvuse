@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/uicomponent_input_field_constraint_layout"
+    style="@style/InputField_Parent">
+    <EditText
+        android:textAppearance="@style/Yoti.v4.TextAppearance.Contrast"
+        android:gravity="center"
+        android:id="@+id/field_input"
+        android:background="@drawable/input_field_background"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+        android:imeOptions="actionDone"
+        android:textCursorDrawable="@drawable/yoti_fad_code_edit_text_cursor"
+        android:textDirection="ltr"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:letterSpacing="0.4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Yoti.v4.Typography.Number.Large"/>
+    <TextView
+        android:textAppearance="@style/Yoti.v4.TextAppearance.Error"
+        android:id="@+id/error_msg"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_input"
+        app:layout_constraintVertical_bias="0.5"
+        style="@style/Yoti.v4.Typography.Body.Small"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

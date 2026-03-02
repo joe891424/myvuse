@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/yoti_lib_scan_instructions_background_color"/>
+    <corners android:radius="@dimen/yoti_lib_scan_focus_area_corner_radius"/>
+</shape>

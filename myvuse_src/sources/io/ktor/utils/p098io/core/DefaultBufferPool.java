@@ -1,0 +1,87 @@
+package io.ktor.utils.p098io.core;
+
+import io.ktor.utils.p098io.bits.Allocator;
+import io.ktor.utils.p098io.bits.DefaultAllocator;
+import io.ktor.utils.p098io.core.internal.ChunkBuffer;
+import io.ktor.utils.p098io.pool.DefaultPool;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: compiled from: BufferFactory.kt */
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(m5597d1 = {"\u0000&\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0010\u0002\n\u0002\b\u0003\b\u0000\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B#\u0012\b\b\u0002\u0010\u0003\u001a\u00020\u0004\u0012\b\b\u0002\u0010\u0005\u001a\u00020\u0004\u0012\b\b\u0002\u0010\u0006\u001a\u00020\u0007¢\u0006\u0002\u0010\bJ\u0010\u0010\t\u001a\u00020\u00022\u0006\u0010\n\u001a\u00020\u0002H\u0014J\u0010\u0010\u000b\u001a\u00020\f2\u0006\u0010\n\u001a\u00020\u0002H\u0014J\b\u0010\r\u001a\u00020\u0002H\u0014J\u0010\u0010\u000e\u001a\u00020\f2\u0006\u0010\n\u001a\u00020\u0002H\u0014R\u000e\u0010\u0006\u001a\u00020\u0007X\u0082\u0004¢\u0006\u0002\n\u0000R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082\u0004¢\u0006\u0002\n\u0000¨\u0006\u000f"}, m5598d2 = {"Lio/ktor/utils/io/core/DefaultBufferPool;", "Lio/ktor/utils/io/pool/DefaultPool;", "Lio/ktor/utils/io/core/IoBuffer;", "bufferSize", "", "capacity", "allocator", "Lio/ktor/utils/io/bits/Allocator;", "(IILio/ktor/utils/io/bits/Allocator;)V", "clearInstance", "instance", "disposeInstance", "", "produceInstance", "validateInstance", "ktor-io"}, m5599k = 1, m5600mv = {1, 5, 1}, m5602xi = 48)
+public final class DefaultBufferPool extends DefaultPool<IoBuffer> {
+    private final Allocator allocator;
+    private final int bufferSize;
+
+    public DefaultBufferPool() {
+        this(0, 0, null, 7, null);
+    }
+
+    public /* synthetic */ DefaultBufferPool(int i, int i2, DefaultAllocator defaultAllocator, int i3, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i3 & 1) != 0 ? 4096 : i, (i3 & 2) != 0 ? 1000 : i2, (i3 & 4) != 0 ? DefaultAllocator.INSTANCE : defaultAllocator);
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public DefaultBufferPool(int i, int i2, Allocator allocator) {
+        super(i2);
+        Intrinsics.checkNotNullParameter(allocator, "allocator");
+        this.bufferSize = i;
+        this.allocator = allocator;
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    /* JADX WARN: Can't rename method to resolve collision */
+    @Override // io.ktor.utils.p098io.pool.DefaultPool
+    public IoBuffer produceInstance() {
+        return new IoBuffer(this.allocator.mo6944allocSK3TCg8(this.bufferSize), null, this, null);
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // io.ktor.utils.p098io.pool.DefaultPool
+    public void disposeInstance(IoBuffer instance) {
+        Intrinsics.checkNotNullParameter(instance, "instance");
+        this.allocator.mo6946free3GNKZMM(instance.getMemory());
+        super.disposeInstance(instance);
+        instance.unlink$ktor_io();
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // io.ktor.utils.p098io.pool.DefaultPool
+    public void validateInstance(IoBuffer instance) {
+        Intrinsics.checkNotNullParameter(instance, "instance");
+        super.validateInstance(instance);
+        if (instance == IoBuffer.INSTANCE.getEmpty()) {
+            throw new IllegalStateException("IoBuffer.Empty couldn't be recycled".toString());
+        }
+        if (!(instance != IoBuffer.INSTANCE.getEmpty())) {
+            throw new IllegalStateException("Empty instance couldn't be recycled".toString());
+        }
+        if (!(instance != Buffer.INSTANCE.getEmpty())) {
+            throw new IllegalStateException("Empty instance couldn't be recycled".toString());
+        }
+        if (!(instance != ChunkBuffer.INSTANCE.getEmpty())) {
+            throw new IllegalStateException("Empty instance couldn't be recycled".toString());
+        }
+        if (!(instance.getRefCount() == 0)) {
+            throw new IllegalStateException("Unable to clear buffer: it is still in use.".toString());
+        }
+        if (!(instance.getNext() == null)) {
+            throw new IllegalStateException("Recycled instance shouldn't be a part of a chain.".toString());
+        }
+        if (!(instance.getOrigin() == null)) {
+            throw new IllegalStateException("Recycled instance shouldn't be a view or another buffer.".toString());
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // io.ktor.utils.p098io.pool.DefaultPool
+    public IoBuffer clearInstance(IoBuffer instance) {
+        Intrinsics.checkNotNullParameter(instance, "instance");
+        IoBuffer ioBuffer = (IoBuffer) super.clearInstance(instance);
+        ioBuffer.unpark$ktor_io();
+        ioBuffer.reset();
+        return ioBuffer;
+    }
+}

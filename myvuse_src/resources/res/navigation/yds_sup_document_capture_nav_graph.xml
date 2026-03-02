@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_document_capture_nav_graph"
+    app:startDestination="@+id/document_selection_nav_graph">
+    <include app:graph="@navigation/yds_document_selection_nav_graph"/>
+    <include app:graph="@navigation/yds_document_upload_nav_graph"/>
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <fragment
+        android:label="Supplementary document guidelines fragment"
+        android:name="com.yoti.mobile.android.documentcapture.sup.view.scan.DocumentGuidelinesFragment"
+        android:id="@+id/supDocumentGuidelinesFragment"/>
+    <fragment
+        android:name="com.yoti.mobile.android.documentcapture.sup.view.review.FileOpenErrorFragment"
+        android:id="@+id/fileOpenErrorFragment"/>
+    <fragment
+        android:name="com.yoti.mobile.android.documentcapture.sup.view.review.DocumentReviewFragment"
+        android:id="@+id/reviewFragment">
+        <argument
+            android:name="captureViewData"
+            app:argType="com.yoti.mobile.android.documentcapture.sup.view.scan.SupplementaryDocumentViewData"/>
+        <action
+            android:id="@+id/action_review_to_file_open_error"
+            app:destination="@+id/fileOpenErrorFragment"
+            app:popUpTo="@+id/reviewFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_guidelines"
+        app:destination="@+id/supDocumentGuidelinesFragment"/>
+    <action
+        android:id="@+id/action_global_to_review"
+        app:destination="@+id/reviewFragment"/>
+</navigation>

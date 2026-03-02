@@ -1,0 +1,28 @@
+package io.invertase.firebase.app;
+
+import android.content.Context;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+import com.newrelic.agent.android.instrumentation.LogInstrumentation;
+
+/* JADX INFO: loaded from: classes4.dex */
+public class ReactNativeFirebaseApp {
+    private static Context applicationContext;
+
+    public static Context getApplicationContext() {
+        return applicationContext;
+    }
+
+    public static void setApplicationContext(Context context) {
+        LogInstrumentation.m2726d("ReactNativeFirebaseApp", "received application context.");
+        applicationContext = context;
+    }
+
+    public static void initializeSecondaryApp(String str) {
+        FirebaseApp.initializeApp(applicationContext, FirebaseOptions.fromResource(applicationContext), str);
+    }
+
+    public static void initializeSecondaryApp(String str, Context context) {
+        FirebaseApp.initializeApp(context, FirebaseOptions.fromResource(context), str);
+    }
+}

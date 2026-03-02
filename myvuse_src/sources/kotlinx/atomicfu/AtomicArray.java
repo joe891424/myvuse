@@ -1,0 +1,31 @@
+package kotlinx.atomicfu;
+
+import androidx.exifinterface.media.ExifInterface;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: AtomicFU.common.kt */
+/* JADX INFO: loaded from: classes6.dex */
+@Metadata(m5596bv = {1, 0, 3}, m5597d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0010\u0011\n\u0002\u0018\u0002\n\u0002\b\b\b\u0007\u0018\u0000*\u0004\b\u0000\u0010\u00012\u00020\u0002B\u000f\b\u0000\u0012\u0006\u0010\u0003\u001a\u00020\u0004¢\u0006\u0002\u0010\u0005J\u0019\u0010\u000e\u001a\n\u0012\u0006\u0012\u0004\u0018\u00018\u00000\b2\u0006\u0010\u000f\u001a\u00020\u0004H\u0087\u0002R\u001e\u0010\u0006\u001a\u0010\u0012\f\u0012\n\u0012\u0006\u0012\u0004\u0018\u00018\u00000\b0\u0007X\u0082\u0004¢\u0006\u0004\n\u0002\u0010\tR\u001a\u0010\u0003\u001a\u00020\u00048FX\u0087\u0004¢\u0006\f\u0012\u0004\b\n\u0010\u000b\u001a\u0004\b\f\u0010\r¨\u0006\u0010"}, m5598d2 = {"Lkotlinx/atomicfu/AtomicArray;", ExifInterface.GPS_DIRECTION_TRUE, "", "size", "", "(I)V", "array", "", "Lkotlinx/atomicfu/AtomicRef;", "[Lkotlinx/atomicfu/AtomicRef;", "getSize$annotations", "()V", "getSize", "()I", "get", FirebaseAnalytics.Param.INDEX, "atomicfu"}, m5599k = 1, m5600mv = {1, 4, 3})
+public final class AtomicArray<T> {
+    private final AtomicRef<T>[] array;
+
+    public static /* synthetic */ void getSize$annotations() {
+    }
+
+    public AtomicArray(int i) {
+        AtomicRef<T>[] atomicRefArr = new AtomicRef[i];
+        for (int i2 = 0; i2 < i; i2++) {
+            atomicRefArr[i2] = AtomicFU.atomic((Object) null);
+        }
+        this.array = atomicRefArr;
+    }
+
+    public final int getSize() {
+        return this.array.length;
+    }
+
+    public final AtomicRef<T> get(int index) {
+        return this.array[index];
+    }
+}

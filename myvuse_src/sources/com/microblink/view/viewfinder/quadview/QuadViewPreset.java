@@ -1,0 +1,12 @@
+package com.microblink.view.viewfinder.quadview;
+
+/* JADX INFO: compiled from: line */
+/* JADX INFO: loaded from: classes3.dex */
+public enum QuadViewPreset {
+    DEFAULT_CORNERS_FROM_PHOTOPAY_ACTIVITY,
+    DEFAULT_CORNERS_FROM_BARCODE_SCAN_ACTIVITY,
+    DEFAULT_FROM_DOCUMENT_SCAN_ACTIVITY,
+    DEFAULT_FROM_OCR_LINE_SCAN_ACTIVITY,
+    DEFAULT_FROM_OCR_LINE_SCAN_ACTIVITY_WITH_INFO,
+    DEFAULT_DOCUMENT_DETECTION
+}

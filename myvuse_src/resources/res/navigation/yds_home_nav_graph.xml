@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@+id/stepTrackerFragment">
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <fragment
+        android:name="com.yoti.mobile.android.yotisdkcore.stepTracker.view.StepTrackerFragment"
+        android:id="@+id/stepTrackerFragment"/>
+</navigation>

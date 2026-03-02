@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@android:color/transparent"
+    android:insetLeft="@dimen/pin_entry_circle_horizontal_inset"
+    android:insetRight="@dimen/pin_entry_circle_horizontal_inset"
+    android:insetTop="@dimen/pin_entry_text_vertical_inset"
+    android:insetBottom="@dimen/pin_entry_text_vertical_inset"/>

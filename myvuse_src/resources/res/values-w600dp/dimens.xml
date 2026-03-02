@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="yds_button_bottom_margin">100dp</dimen>
+    <dimen name="yds_button_horizontal_margin">44dp</dimen>
+    <dimen name="yds_document_requirements_cell_bottom_margin">26dp</dimen>
+    <dimen name="yds_elements_horizontal_margin">44dp</dimen>
+    <dimen name="yds_guidelines_grid_cell_spacing">28dp</dimen>
+    <dimen name="yds_guidelines_list_cell_bottom_margin">32dp</dimen>
+    <dimen name="yds_guidelines_list_cell_image_size">120dp</dimen>
+    <dimen name="yds_guidelines_list_cell_text_from_image_margin">20dp</dimen>
+    <dimen name="yds_margin">24dp</dimen>
+    <dimen name="yds_screen_title_margin_top">20dp</dimen>
+</resources>

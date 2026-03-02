@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/pin_entry_border_width"
+                android:color="?attr/border_error"/>
+            <corners android:radius="@dimen/border_corner_radius"/>
+        </shape>
+    </item>
+    <item
+        android:left="@dimen/pin_entry_separator_start_margin"
+        android:top="@dimen/pin_entry_border_width"
+        android:bottom="@dimen/pin_entry_border_width">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="@dimen/pin_entry_separator_border_width"
+                    android:color="?attr/border_error"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

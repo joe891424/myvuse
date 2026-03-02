@@ -1,0 +1,20 @@
+package com.yoti.mobile.android.documentcapture.view.requirements;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes5.dex */
+@Metadata(m5597d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0007\"\u0016\u0010\u0000\u001a\u00020\u00018\u0006X\u0087T¢\u0006\b\n\u0000\u0012\u0004\b\u0002\u0010\u0003\"\u0016\u0010\u0004\u001a\u00020\u00018\u0006X\u0087T¢\u0006\b\n\u0000\u0012\u0004\b\u0005\u0010\u0003\"\u0016\u0010\u0006\u001a\u00020\u00018\u0006X\u0087T¢\u0006\b\n\u0000\u0012\u0004\b\u0007\u0010\u0003¨\u0006\b"}, m5598d2 = {DocumentRequirementsViewModelKt.KEY_DOCUMENT_REQUIREMENTS_VIEW_DATA, "", "getKEY_DOCUMENT_REQUIREMENTS_VIEW_DATA$annotations", "()V", DocumentRequirementsViewModelKt.KEY_DOCUMENT_TYPE, "getKEY_DOCUMENT_TYPE$annotations", "KEY_ISO_3_CODE", "getKEY_ISO_3_CODE$annotations", "documentcapture-core_productionRelease"}, m5599k = 2, m5600mv = {1, 6, 0}, m5602xi = 48)
+public final class DocumentRequirementsViewModelKt {
+    public static final String KEY_DOCUMENT_REQUIREMENTS_VIEW_DATA = "KEY_DOCUMENT_REQUIREMENTS_VIEW_DATA";
+    public static final String KEY_DOCUMENT_TYPE = "KEY_DOCUMENT_TYPE";
+    public static final String KEY_ISO_3_CODE = "KEY_ISO_3_CODE";
+
+    public static /* synthetic */ void getKEY_DOCUMENT_REQUIREMENTS_VIEW_DATA$annotations() {
+    }
+
+    public static /* synthetic */ void getKEY_DOCUMENT_TYPE$annotations() {
+    }
+
+    public static /* synthetic */ void getKEY_ISO_3_CODE$annotations() {
+    }
+}

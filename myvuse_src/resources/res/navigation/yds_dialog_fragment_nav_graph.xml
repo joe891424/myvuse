@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/yds_dialog_fragment_nav_graph"
+    app:startDestination="@+id/yotiDocsDialogFragment">
+    <dialog
+        android:name="com.yoti.mobile.android.commonui.YotiDocsDialogFragment"
+        android:id="@+id/yotiDocsDialogFragment">
+        <argument
+            android:name="ydsDialogTitle"
+            android:defaultValue="0"
+            app:argType="reference"/>
+        <argument
+            android:name="ydsDialogText"
+            app:argType="reference"/>
+        <argument
+            android:name="ydsDialogPositiveButtonText"
+            app:argType="reference"/>
+        <argument
+            android:name="ydsDialogNegativeButtonText"
+            android:defaultValue="0"
+            app:argType="reference"/>
+        <argument
+            android:name="ydsDialogType"
+            android:defaultValue="DEFAULT"
+            app:argType="com.yoti.mobile.android.commonui.DialogType"/>
+    </dialog>
+</navigation>

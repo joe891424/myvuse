@@ -1,0 +1,22 @@
+{
+   "dependencies":[
+      {
+         "name":"com.github.bumptech.glide:glide",
+         "project_url":"https://github.com/bumptech/glide",
+         "license_name":"BSD",
+         "copyright_notice":""
+      },
+      {
+         "name":"com.github.chrisbanes:PhotoView",
+         "project_url":"https://github.com/Baseflow/PhotoView",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2011, 2012 Chris Banes."
+      },
+      {
+         "name":"com.github.wching:Android-Indefinite-Pager-Indicator",
+         "project_url":"https://github.com/wching/Android-Indefinite-Pager-Indicator",
+         "license_name":"MIT",
+         "copyright_notice":""
+      }
+   ]
+}

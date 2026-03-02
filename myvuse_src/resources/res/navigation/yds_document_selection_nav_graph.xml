@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/document_selection_nav_graph"
+    app:startDestination="@+id/documentSelectionFragment">
+    <include app:graph="@navigation/yds_camera_permission_denied_nav_graph"/>
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <include app:graph="@navigation/yds_more_about_nav_graph"/>
+    <fragment
+        android:label="DocumentSelectionFragment"
+        android:name="com.yoti.mobile.android.documentcapture.view.selection.DocumentSelectionFragment"
+        android:id="@+id/documentSelectionFragment">
+        <action
+            android:id="@+id/action_documentSelectionFragment_to_countrySelectionFragment"
+            app:destination="@+id/countrySelectionFragment"/>
+        <action
+            android:id="@+id/action_documentSelectionFragment_to_document_educational"
+            app:destination="@+id/documentEducationalFragment"/>
+        <action
+            android:id="@+id/action_documentSelectionFragment_to_document_requirements"
+            app:destination="@+id/documentRequirementsFragment"
+            app:popUpTo="@+id/documentSelectionFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:label="CountrySelectionFragment"
+        android:name="com.yoti.mobile.android.documentcapture.view.selection.CountrySelectionFragment"
+        android:id="@+id/countrySelectionFragment"/>
+    <fragment
+        android:label="DocumentEducationalFragment"
+        android:name="com.yoti.mobile.android.documentcapture.view.educational.DocumentEducationalFragment"
+        android:id="@+id/documentEducationalFragment">
+        <argument
+            android:name="documentViewData"
+            android:defaultValue="@null"
+            app:argType="com.yoti.mobile.android.documentcapture.view.selection.DocumentViewData"
+            app:nullable="true"/>
+        <argument
+            android:name="countryIso3Code"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="objective"
+            android:defaultValue="@null"
+            app:argType="com.yoti.mobile.android.documentcapture.view.selection.CaptureObjectiveTypeViewData"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:label="DocumentRequirementsFragment"
+        android:name="com.yoti.mobile.android.documentcapture.view.requirements.DocumentRequirementsFragment"
+        android:id="@+id/documentRequirementsFragment"/>
+    <fragment
+        android:label="DocumentAdditionalInstructions"
+        android:name="com.yoti.mobile.android.documentcapture.view.additional_instructions.AdditionalInstructionsFragment"
+        android:id="@+id/documentAdditionalInstructions"/>
+    <action
+        android:id="@+id/action_global_to_additional_instructions"
+        app:destination="@+id/documentAdditionalInstructions"/>
+</navigation>

@@ -1,0 +1,267 @@
+ABW	Aruba	Aruban
+AFG	Afghanistan	Afghan
+AGO	Angola	Angolan
+AIA	Anguilla	Anguillan
+ALA	Åland Islands	Finnish
+ALB	Albania	Albanian
+AND	Andorra	Andorran
+ARE	United Arab Emirates	Emirati
+ARG	Argentina	Argentinian
+ARM	Armenia	Armenian
+ASM	American Samoa	American Samoan
+ATA	Antarctica	N/A
+ATF	French Southern Territories	French
+ATG	Antigua and Barbuda	Antiguan/Barbudan
+AUS	Australia	Australian
+AUT	Austria	Austrian
+AZE	Azerbaijan	Azerbaijani
+BDI	Burundi	Burundian
+BEL	Belgium	Belgian
+BEN	Benin	Beninese
+BES	Bonaire, Sint Eustatius and Saba	Dutch
+BFA	Burkina Faso	Burkinabe
+BGD	Bangladesh	Bangladeshi
+BGR	Bulgaria	Bulgarian
+BHR	Bahrain	Bahraini
+BHS	Bahamas	Bahamian
+BIH	Bosnia and Herzegovina	Bosnian
+BLM	Saint Barthélemy	French
+BLR	Belarus	Belarusian
+BLZ	Belize	Belizean
+BMU	Bermuda	Bermudian
+BOL	Plurinational State of Bolivia	Bolivian
+BRA	Brazil	Brazilian
+BRB	Barbados	Barbadian
+BRN	Brunei Darussalam	Bruneian
+BTN	Bhutan	Bhutanese
+BVT	Bouvet Island	Bouvet Islander
+BWA	Botswana	Motswana
+CAF	Central African Republic	Central African
+CAN	Canada	Canadian
+CCK	Cocos (Keeling) Islands	Cocos Islander
+CHE	Switzerland	Swiss
+CHL	Chile	Chilean
+CHN	China	Chinese
+CIV	Côte d’Ivoire	Ivorian
+CMR	Cameroon	Cameroonian
+COD	The Democratic Republic of the Congo	Congolese
+COG	Congo	Congolese
+COK	Cook Islands	Cook Islander
+COL	Colombia	Colombian
+COM	Comoros	Comorian
+CPV	Cabo Verde	Cabo Verdean
+CRI	Costa Rica	Costa Rican
+CUB	Cuba	Cuban
+CUW	Curaçao	Antillian Dutch
+CXR	Christmas Island	Christmas Islander
+CYM	Cayman Islands	Caymanian
+CYP	Cyprus	Cypriot
+CZE	Czech Republic	Czech
+DEU	Germany	German
+D<<	Germany	German
+DJI	Djibouti	Djiboutian
+DMA	Dominica	Dominican
+DNK	Denmark	Danish
+DOM	Dominican Republic	Dominican
+DZA	Algeria	Algerian
+ECU	Ecuador	Ecuadorian
+EGY	Egypt	Egyptian
+ERI	Eritrea	Eritrean
+ESH	Western Sahara	N/A
+ESP	Spain	Spanish
+EST	Estonia	Estonian
+ETH	Ethiopia	Ethiopian
+FIN	Finland	Finnish
+FJI	Fiji	Fijian
+FLK	Falkland Islands (Malvinas)	Falkland Islander
+FRA	France	French
+FRO	Faroe Islands	Faroese
+FSM	Federated States of Micronesia	Micronesian
+GAB	Gabon	Gabonese
+GBR	United Kingdom	British
+GEO	Georgia	Georgian
+GGY	Guernsey	British
+GHA	Ghana	Ghanaian
+GIB	Gibraltar	Gibraltarian
+GIN	Guinea	Guinean
+GLP	Guadeloupe	Guadeloupean
+GMB	Gambia	Gambian
+GNB	Guinea-Bissau	Bissau-Guinean
+GNQ	Equatorial Guinea	Equatorial Guinean
+GRC	Greece	Greek
+GRD	Grenada	Grenadian
+GRL	Greenland	Greenlander
+GTM	Guatemala	Guatemalan
+GUF	French Guiana	French Guianese
+GUM	Guam	Guamanian
+GUY	Guyana	Guyanese
+HKG	Hong Kong	Hong Kong Chinese
+HMD	Heard Island and McDonald Islands	Australian
+HND	Honduras	Honduran
+HRV	Croatia	Croatian
+HTI	Haiti	Haitian
+HUN	Hungary	Hungarian
+IDN	Indonesia	Indonesian
+IMN	Isle of Man	British
+IND	India	Indian
+IOT	British Indian Ocean Territory	British
+IRL	Ireland	Irish
+IRN	Islamic Republic of Iran	Iranian
+IRQ	Iraq	Iraqi
+ISL	Iceland	Icelandic
+ISR	Israel	Israeli
+ITA	Italy	Italian
+JAM	Jamaica	Jamaican
+JEY	Jersey	British
+JOR	Jordan	Jordanian
+JPN	Japan	Japanese
+KAZ	Kazakhstan	Kazakhstani
+KEN	Kenya	Kenyan
+KGZ	Kyrgyzstan	Kyrgyzstani
+KHM	Cambodia	Cambodian
+KIR	Kiribati	I-Kiribati
+KNA	Saint Kitts and Nevis	Kittitian / Nevisian
+KOR	Republic of Korea	South Korean
+KWT	Kuwait	Kuwaiti
+LAO	Lao People's Democratic Republic	Laotian
+LBN	Lebanon	Lebanese
+LBR	Liberia	Liberian
+LBY	Libya	Libyan
+LCA	Saint Lucia	Saint Lucian
+LIE	Liechtenstein	Liechtensteiner
+LKA	Sri Lanka	Sri Lankan
+LSO	Lesotho	Basotho
+LTU	Lithuania	Lithuanian
+LUX	Luxembourg	Luxembourger
+LVA	Latvia	Latvian
+MAC	Macao	Chinese
+MAF	Saint Martin (French part)	French
+MAR	Morocco	Moroccan
+MCO	Monaco	Monacan
+MDA	Republic of Moldova	Moldovan
+MDG	Madagascar	Malagasy
+MDV	Maldives	Maldivian
+MEX	Mexico	Mexican
+MHL	Marshall Islands	Marshallese
+MKD	The former Yugoslav Republic of Macedonia	Macedonian
+MLI	Mali	Malian
+MLT	Malta	Maltese
+MMR	Myanmar	Burmese
+MNE	Montenegro	Montenegrin
+MNG	Mongolia	Mongolian
+MNP	Northern Mariana Islands	Northern Mariana Islander
+MOZ	Mozambique	Mozambican
+MRT	Mauritania	Mauritanian
+MSR	Montserrat	Montserratian
+MTQ	Martinique	Martinican
+MUS	Mauritius	Mauritian
+MWI	Malawi	Malawian
+MYS	Malaysia	Malaysian
+MYT	Mayotte	Mahoran
+NAM	Namibia	Namibian
+NCL	New Caledonia	New Calidonian
+NER	Niger	Nigerien
+NFK	Norfolk Island	Norfolk Islander
+NGA	Nigeria	Nigerian
+NIC	Nicaragua	Nicaraguan
+NIU	Niue	Niuean
+NLD	Netherlands	Dutch
+NOR	Norway	Norwegian
+NPL	Nepal	Nepalese
+NRU	Nauru	Nauruan
+NZL	New Zealand	New Zealander
+OMN	Oman	Omani
+PAK	Pakistan	Pakistani
+PAN	Panama	Panamanian
+PCN	Pitcairn	Pitcairn Islander
+PER	Peru	Peruvian
+PHL	Philippines	Filipino
+PLW	Palau	Palauan
+PNG	Papua New Guinea	Papua New Guinean
+POL	Poland	Polish
+PRI	Puerto Rico	Puerto Rican
+PRK	Democratic People's Republic of Korea	North Korean
+PRT	Portugal	Portuguese
+PRY	Paraguay	Paraguayan
+PSE	State of Palestine	N/A
+PYF	French Polynesia	French Polynesian
+QAT	Qatar	Qatari
+REU	RÃ©union	Reunionese
+ROU	Romania	Romanian
+RUS	Russian Federation	Russian
+RWA	Rwanda	Rwandan
+SAU	Saudi Arabia	Saudi Arabian
+SDN	Sudan	Sudanese
+SEN	Senegal	Senegalese
+SGP	Singapore	Singaporean
+SGS	South Georgia and the South Sandwich Islands	British
+SHN	Saint Helena, Ascension and Tristan da Cunha	British
+SJM	Svalbard and Jan Mayen	Norwegian
+SLB	Solomon Islands	Solomon Islander
+SLE	Sierra Leone	Sierra Leonean
+SLV	El Salvador	Salvadoran
+SMR	San Marino	Sammarinese
+SOM	Somalia	Somali
+SPM	Saint Pierre and Miquelon	Saint-Pierrais / Miquelonnais
+SRB	Serbia	Serbian
+SSD	South Sudan	South Sudanese
+STP	Sao Tome and Principe	Sao Tomean
+SUR	Suriname	Surinamese
+SVK	Slovakia	Slovak
+SVN	Slovenia	Slovenian
+SWE	Sweden	Swedish
+SWZ	Swaziland	Swazi
+SXM	Sint Maarten (Dutch part)	Dutch
+SYC	Seychelles	Seychellois
+SYR	Syrian Arab Republic	Syrian
+TCA	Turks and Caicos Islands	Turks and Caicos Islander
+TCD	Chad	Chadian
+TGO	Togo	Togolese
+THA	Thailand	Thai
+TJK	Tajikistan	Tajikistani
+TKL	Tokelau	Tokelauan
+TKM	Turkmenistan	Turkmen
+TLS	Timor-Leste	East Timorese
+TON	Tonga	Tongan
+TTO	Trinidad and Tobago	Trinidadian / Tobagonian
+TUN	Tunisia	Tunisian
+TUR	Turkey	Turkish
+TUV	Tuvalu	Tuvaluan
+TWN	Taiwan, Province of China	Taiwanese
+TZA	United Republic of Tanzania	Tanzanian
+UGA	Uganda	Ugandan
+UKR	Ukraine	Ukrainian
+UMI	United States Minor Outlying Islands	American
+URY	Uruguay	Uruguayan
+USA	United States	American
+UZB	Uzbekistan	Uzbekistani
+VAT	Holy See (Vatican City State)	N/A
+VCT	Saint Vincent and the Grenadines	Vincentian
+VEN	Bolivarian Republic of Venezuela	Venezuelan
+VGB	Virgin Islands, British	British Virgin Islander
+VIR	Virgin Islands, U.S.	American
+VNM	Viet Nam	Vietnamese
+VUT	Vanuatu	Ni-Vanuatu
+WLF	Wallis and Futuna	Wallisian/Futunan
+WSM	Samoa	Samoan
+YEM	Yemen	Yemeni
+ZAF	South Africa	South African
+ZMB	Zambia	Zambian
+ZWE	Zimbabwe	Zimbabwean
+GBD	British Overseas Territories	British
+GBN	British National (Overseas)	British
+GBO	British Overseas	British
+GBP	British protected person	British
+GBS	British subject	British
+UNO	United Nations Organisation	United Nations
+UNA	United Nations Agency	United Nations
+UNK	United Nations Interim Administration Mission in Kosovo	United Nations
+XIM	African Export-Import Bank	African Export-Import Bank
+XCC	Caribbean Community	Caribbean Community
+XCO	Common Market for Eastern and Southern Africa	Common Market for Eastern and Southern Africa
+XPO	Interpol	Interpol
+XOM	Sovereign Military Order of Malta	Maltese
+XXA	Stateless person	Stateless
+XXB	Refugee, article 1 of 1951 convention	Refugee
+XXC	Refugee, other	Refugee
+XXX	Unspecified nationality	Unspecified

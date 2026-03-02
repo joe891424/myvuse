@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liveness_facetec_nav_graph"
+    app:startDestination="@+id/liveness_biometric_and_educational_nav_graph">
+    <include app:graph="@navigation/yds_liveness_biometric_and_educational_nav_graph"/>
+    <include app:graph="@navigation/yds_liveness_upload_nav_graph"/>
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <include app:graph="@navigation/yds_liveness_educational_guideline_nav_graph"/>
+    <fragment
+        android:label="LivenessFaceTecCaptureFragment"
+        android:name="com.yoti.mobile.android.liveness.zoom.view.capture.LivenessFaceTecCaptureFragment"
+        android:id="@+id/livenessFaceTecCaptureFragment">
+        <argument
+            android:name="resourceId"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_to_scanFaceErrorFragment"
+            app:destination="@+id/scanFaceErrorFragment"/>
+    </fragment>
+    <fragment
+        android:label="ScanFaceErrorFragment"
+        android:name="com.yoti.mobile.android.liveness.zoom.view.capture.ScanFaceErrorFragment"
+        android:id="@+id/scanFaceErrorFragment">
+        <action
+            android:id="@+id/action_scanError_to_livenessEducationalGuidelineFragment"
+            app:destination="@+id/yds_liveness_educational_guideline_nav_graph"
+            app:popUpTo="@+id/livenessFaceTecCaptureFragment"/>
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_liveness_facetec_capture"
+        app:destination="@+id/livenessFaceTecCaptureFragment"/>
+</navigation>

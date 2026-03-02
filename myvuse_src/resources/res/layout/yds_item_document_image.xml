@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/iv_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_gravity="end|bottom"
+        android:id="@+id/buttonRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:backgroundTint="@color/yoti_theme_state_button_primary_background"
+        app:fabCustomSize="48dp"
+        app:rippleColor="?attr/button_primary_ripple"
+        app:srcCompat="@drawable/yds_ic_rotate_clockwise"/>
+    <com.yoti.mobile.android.common.p049ui.widgets.YotiBadge
+        android:layout_gravity="end|top"
+        android:id="@+id/pageIndicator"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:minWidth="48dp"
+        style="@style/Yoti.v3.Badge"/>
+</FrameLayout>

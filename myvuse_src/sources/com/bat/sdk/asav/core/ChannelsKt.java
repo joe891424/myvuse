@@ -1,0 +1,11 @@
+package com.bat.sdk.asav.core;
+
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: Channels.kt */
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(m5597d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0004\"\u0018\u0010\u0000\u001a\n \u0002*\u0004\u0018\u00010\u00010\u0001X\u0082\u0004¢\u0006\u0004\n\u0002\u0010\u0003\"\u0018\u0010\u0004\u001a\n \u0002*\u0004\u0018\u00010\u00010\u0001X\u0082\u0004¢\u0006\u0004\n\u0002\u0010\u0003¨\u0006\u0005"}, m5598d2 = {"TAG0", "", "kotlin.jvm.PlatformType", "Ljava/lang/String;", "TAG", "sdk_release"}, m5599k = 2, m5600mv = {2, 0, 0}, m5602xi = 48)
+public final class ChannelsKt {
+    private static final String TAG0 = "Channels";
+    private static final String TAG = "Channel";
+}

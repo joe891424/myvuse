@@ -1,0 +1,58 @@
+package androidx.camera.view;
+
+import android.graphics.Bitmap;
+import android.util.Size;
+import android.view.View;
+import android.widget.FrameLayout;
+import androidx.camera.core.SurfaceRequest;
+import com.google.common.util.concurrent.ListenableFuture;
+
+/* JADX INFO: loaded from: classes.dex */
+abstract class PreviewViewImplementation {
+    FrameLayout mParent;
+    private final PreviewTransformation mPreviewTransform;
+    Size mResolution;
+
+    interface OnSurfaceNotInUseListener {
+        void onSurfaceNotInUse();
+    }
+
+    abstract View getPreview();
+
+    abstract Bitmap getPreviewBitmap();
+
+    abstract void initializePreview();
+
+    abstract void onAttachedToWindow();
+
+    abstract void onDetachedFromWindow();
+
+    abstract void onSurfaceRequested(SurfaceRequest surfaceRequest, OnSurfaceNotInUseListener onSurfaceNotInUseListener);
+
+    abstract ListenableFuture<Void> waitForNextFrame();
+
+    PreviewViewImplementation(FrameLayout parent, PreviewTransformation previewTransform) {
+        this.mParent = parent;
+        this.mPreviewTransform = previewTransform;
+    }
+
+    void redrawPreview() {
+        View preview = getPreview();
+        if (preview == null) {
+            return;
+        }
+        this.mPreviewTransform.transformView(new Size(this.mParent.getWidth(), this.mParent.getHeight()), this.mParent.getLayoutDirection(), preview);
+    }
+
+    void onSurfaceProvided() {
+        redrawPreview();
+    }
+
+    Bitmap getBitmap() {
+        Bitmap previewBitmap = getPreviewBitmap();
+        if (previewBitmap == null) {
+            return null;
+        }
+        return this.mPreviewTransform.createTransformedBitmap(previewBitmap, new Size(this.mParent.getWidth(), this.mParent.getHeight()), this.mParent.getLayoutDirection());
+    }
+}

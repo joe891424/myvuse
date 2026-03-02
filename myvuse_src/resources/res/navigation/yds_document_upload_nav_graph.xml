@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/document_upload_nav_graph"
+    app:startDestination="@+id/documentUploadFragment">
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <fragment
+        android:name="com.yoti.mobile.android.documentcapture.view.upload.DocumentUploadFragment"
+        android:id="@+id/documentUploadFragment">
+        <argument
+            android:name="uploadableDocumentViewData"
+            app:argType="com.yoti.mobile.android.documentcapture.view.upload.IDocumentViewData"/>
+        <action
+            android:id="@+id/action_to_documentUploadErrorFragment"
+            app:destination="@+id/documentUploadErrorFragment"/>
+    </fragment>
+    <fragment
+        android:name="com.yoti.mobile.android.documentcapture.view.upload.DocumentUploadErrorFragment"
+        android:id="@+id/documentUploadErrorFragment"/>
+</navigation>

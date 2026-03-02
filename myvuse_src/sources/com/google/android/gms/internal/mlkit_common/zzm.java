@@ -1,0 +1,202 @@
+package com.google.android.gms.internal.mlkit_common;
+
+import com.newrelic.agent.android.instrumentation.LogInstrumentation;
+import java.io.FileDescriptor;
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.concurrent.Callable;
+
+/* JADX INFO: compiled from: com.google.mlkit:common@@17.1.0 */
+/* JADX INFO: loaded from: classes3.dex */
+final class zzm {
+    private static final Method zza;
+    private static final Method zzb;
+    private static final Method zzc;
+    private static final Field zzd;
+    private static final Field zze;
+    private static final Field zzf;
+    private static final Object zzg;
+    private static final Throwable zzh;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r7v0 */
+    /* JADX WARN: Type inference failed for: r7v1 */
+    /* JADX WARN: Type inference failed for: r7v13, types: [java.lang.reflect.Field] */
+    /* JADX WARN: Type inference failed for: r7v2, types: [java.lang.reflect.Field] */
+    /* JADX WARN: Type inference failed for: r7v7 */
+    /* JADX WARN: Type inference failed for: r7v9 */
+    /* JADX WARN: Type inference failed for: r8v0 */
+    /* JADX WARN: Type inference failed for: r8v1, types: [java.lang.reflect.Field] */
+    /* JADX WARN: Type inference failed for: r8v4 */
+    /* JADX WARN: Type inference failed for: r8v6, types: [java.lang.reflect.Field] */
+    static {
+        Throwable th;
+        Object obj;
+        Field field;
+        Method declaredMethod;
+        Method declaredMethod2;
+        Method declaredMethod3;
+        ?? field2;
+        ?? field3;
+        Class<?> cls;
+        Class<?> cls2;
+        Class<?> cls3;
+        try {
+            cls = Class.forName("libcore.io.Libcore");
+            cls2 = Class.forName("libcore.io.StructStat");
+            Class<?> cls4 = Class.forName("libcore.io.OsConstants");
+            cls3 = Class.forName("libcore.io.ForwardingOs");
+            declaredMethod = cls4.getDeclaredMethod("S_ISLNK", Integer.TYPE);
+        } catch (Throwable th2) {
+            th = th2;
+            obj = null;
+            field = null;
+            declaredMethod = null;
+            declaredMethod2 = null;
+        }
+        try {
+            declaredMethod.setAccessible(true);
+            declaredMethod3 = cls3.getDeclaredMethod("lstat", String.class);
+            try {
+                declaredMethod2 = cls3.getDeclaredMethod("fstat", FileDescriptor.class);
+                try {
+                    Field declaredField = cls.getDeclaredField("os");
+                    declaredField.setAccessible(true);
+                    obj = declaredField.get(cls);
+                    try {
+                        field2 = cls2.getField("st_dev");
+                        try {
+                            field3 = cls2.getField("st_ino");
+                            try {
+                                field = cls2.getField("st_mode");
+                            } catch (Throwable th3) {
+                                th = th3;
+                                field = null;
+                            }
+                        } catch (Throwable th4) {
+                            th = th4;
+                            field = null;
+                            field3 = 0;
+                        }
+                    } catch (Throwable th5) {
+                        th = th5;
+                        field = null;
+                        field2 = field;
+                        field3 = field2;
+                        try {
+                            LogInstrumentation.m2727d("StructStatHelper", "Reflection failed", th);
+                            zza = declaredMethod;
+                            zzb = declaredMethod3;
+                            zzc = declaredMethod2;
+                            zzd = field2;
+                            zze = field3;
+                            zzf = field;
+                            zzg = obj;
+                            zzh = th;
+                        } finally {
+                            zza = declaredMethod;
+                            zzb = declaredMethod3;
+                            zzc = declaredMethod2;
+                            zzd = field2;
+                            zze = field3;
+                            zzf = field;
+                            zzg = obj;
+                            zzh = null;
+                        }
+                    }
+                } catch (Throwable th6) {
+                    th = th6;
+                    obj = null;
+                    field = null;
+                }
+            } catch (Throwable th7) {
+                th = th7;
+                obj = null;
+                field = null;
+                declaredMethod2 = null;
+                field2 = 0;
+            }
+        } catch (Throwable th8) {
+            th = th8;
+            obj = null;
+            field = null;
+            declaredMethod2 = null;
+            declaredMethod3 = declaredMethod2;
+            field2 = declaredMethod3;
+            field3 = field2;
+            LogInstrumentation.m2727d("StructStatHelper", "Reflection failed", th);
+            zza = declaredMethod;
+            zzb = declaredMethod3;
+            zzc = declaredMethod2;
+            zzd = field2;
+            zze = field3;
+            zzf = field;
+            zzg = obj;
+            zzh = th;
+        }
+        try {
+            field2.setAccessible(true);
+            field3.setAccessible(true);
+            field.setAccessible(true);
+        } catch (Throwable th9) {
+            th = th9;
+            LogInstrumentation.m2727d("StructStatHelper", "Reflection failed", th);
+            zza = declaredMethod;
+            zzb = declaredMethod3;
+            zzc = declaredMethod2;
+            zzd = field2;
+            zze = field3;
+            zzf = field;
+            zzg = obj;
+            zzh = th;
+        }
+    }
+
+    static zzn zza(final String str) throws IOException {
+        return (zzn) zzf(new Callable(str) { // from class: com.google.android.gms.internal.mlkit_common.zzk
+            private final String zza;
+
+            {
+                this.zza = str;
+            }
+
+            @Override // java.util.concurrent.Callable
+            public final Object call() {
+                return zzm.zze(zzm.zzb.invoke(zzm.zzg, this.zza));
+            }
+        });
+    }
+
+    static zzn zzb(final FileDescriptor fileDescriptor) throws IOException {
+        return (zzn) zzf(new Callable(fileDescriptor) { // from class: com.google.android.gms.internal.mlkit_common.zzl
+            private final FileDescriptor zza;
+
+            {
+                this.zza = fileDescriptor;
+            }
+
+            @Override // java.util.concurrent.Callable
+            public final Object call() {
+                return zzm.zze(zzm.zzc.invoke(zzm.zzg, this.zza));
+            }
+        });
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static zzn zze(Object obj) throws Exception {
+        return new zzn(((Long) zzd.get(obj)).longValue(), ((Long) zze.get(obj)).longValue(), ((Boolean) zza.invoke(null, Integer.valueOf(((Integer) zzf.get(obj)).intValue()))).booleanValue());
+    }
+
+    private static <T> T zzf(Callable<T> callable) throws IOException {
+        try {
+            Throwable th = zzh;
+            if (th == null) {
+                return callable.call();
+            }
+            throw new IOException(th);
+        } catch (Throwable th2) {
+            throw new IOException(th2);
+        }
+    }
+}

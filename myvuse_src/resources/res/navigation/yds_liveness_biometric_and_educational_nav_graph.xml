@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/liveness_biometric_and_educational_nav_graph"
+    app:startDestination="@+id/biometricConsentFragment">
+    <include app:graph="@navigation/yds_camera_permission_denied_nav_graph"/>
+    <include app:graph="@navigation/yds_dead_end_nav_graph"/>
+    <include app:graph="@navigation/yds_more_about_nav_graph"/>
+    <include app:graph="@navigation/yds_webview_nav_graph"/>
+    <include app:graph="@navigation/yds_liveness_educational_guideline_nav_graph"/>
+    <fragment
+        android:label="BiometricConsentFragment"
+        android:name="com.yoti.mobile.android.liveness.view.biometric_consent.BiometricConsentFragment"
+        android:id="@+id/biometricConsentFragment">
+        <action
+            android:id="@+id/action_to_livenessEducationalFragment"
+            app:destination="@+id/livenessEducationalFragment"/>
+        <action
+            android:id="@+id/action_educational_as_start_destination"
+            app:destination="@+id/livenessEducationalFragment"
+            app:popUpTo="@+id/biometricConsentFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:label="LivenessEducationalFragment"
+        android:name="com.yoti.mobile.android.liveness.view.educational.LivenessEducationalFragment"
+        android:id="@+id/livenessEducationalFragment">
+        <action
+            android:id="@+id/action_to_cameraPermissionDeniedFragment"
+            app:destination="@+id/camera_permission_denied_nav_graph"/>
+        <action
+            android:id="@+id/action_educational_to_livenessEducationalGuidelineFragment"
+            app:destination="@+id/yds_liveness_educational_guideline_nav_graph"/>
+    </fragment>
+</navigation>

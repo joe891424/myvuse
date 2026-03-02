@@ -1,0 +1,25 @@
+package com.google.android.gms.internal.measurement;
+
+import android.os.Bundle;
+import android.os.RemoteException;
+import com.google.android.gms.common.internal.Preconditions;
+import com.google.android.gms.internal.measurement.zzdn;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-measurement-sdk-api@@22.0.1 */
+/* JADX INFO: loaded from: classes3.dex */
+final class zzds extends zzdn.zzb {
+    private final /* synthetic */ Bundle zzc;
+    private final /* synthetic */ zzdn zzd;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    zzds(zzdn zzdnVar, Bundle bundle) {
+        super(zzdnVar);
+        this.zzc = bundle;
+        this.zzd = zzdnVar;
+    }
+
+    @Override // com.google.android.gms.internal.measurement.zzdn.zzb
+    final void zza() throws RemoteException {
+        ((zzdc) Preconditions.checkNotNull(this.zzd.zzj)).setConditionalUserProperty(this.zzc, this.zza);
+    }
+}

@@ -1,0 +1,1707 @@
+{
+  "countries" : [
+    {
+      "codeAlpha2" : "AO",
+      "codeAlpha3" : "AGO",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "AI",
+      "codeAlpha3" : "AIA",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "AL",
+      "codeAlpha3" : "ALB",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "AD",
+      "codeAlpha3" : "AND",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "AE",
+      "codeAlpha3" : "ARE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "AR",
+      "codeAlpha3" : "ARG",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "AM",
+      "codeAlpha3" : "ARM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "AG",
+      "codeAlpha3" : "ATG",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "AU",
+      "codeAlpha3" : "AUS",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "AT",
+      "codeAlpha3" : "AUT",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "AZ",
+      "codeAlpha3" : "AZE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BI",
+      "codeAlpha3" : "BDI",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "BE",
+      "codeAlpha3" : "BEL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BJ",
+      "codeAlpha3" : "BEN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BF",
+      "codeAlpha3" : "BFA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BD",
+      "codeAlpha3" : "BGD",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BG",
+      "codeAlpha3" : "BGR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BH",
+      "codeAlpha3" : "BHR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BS",
+      "codeAlpha3" : "BHS",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BA",
+      "codeAlpha3" : "BIH",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BY",
+      "codeAlpha3" : "BLR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BZ",
+      "codeAlpha3" : "BLZ",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "BM",
+      "codeAlpha3" : "BMU",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BO",
+      "codeAlpha3" : "BOL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BR",
+      "codeAlpha3" : "BRA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BB",
+      "codeAlpha3" : "BRB",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "BN",
+      "codeAlpha3" : "BRN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BT",
+      "codeAlpha3" : "BTN",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "BW",
+      "codeAlpha3" : "BWA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CF",
+      "codeAlpha3" : "CAF",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "CA",
+      "codeAlpha3" : "CAN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CH",
+      "codeAlpha3" : "CHE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CL",
+      "codeAlpha3" : "CHL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CN",
+      "codeAlpha3" : "CHN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CI",
+      "codeAlpha3" : "CIV",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CM",
+      "codeAlpha3" : "CMR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CD",
+      "codeAlpha3" : "COD",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "CG",
+      "codeAlpha3" : "COG",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "CO",
+      "codeAlpha3" : "COL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KM",
+      "codeAlpha3" : "COM",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CV",
+      "codeAlpha3" : "CPV",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CR",
+      "codeAlpha3" : "CRI",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CU",
+      "codeAlpha3" : "CUB",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KY",
+      "codeAlpha3" : "CYM",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "CY",
+      "codeAlpha3" : "CYP",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "CZ",
+      "codeAlpha3" : "CZE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "DE",
+      "codeAlpha3" : "DEU",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "DM",
+      "codeAlpha3" : "DMA",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "DK",
+      "codeAlpha3" : "DNK",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "DO",
+      "codeAlpha3" : "DOM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "DZ",
+      "codeAlpha3" : "DZA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "EC",
+      "codeAlpha3" : "ECU",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "EG",
+      "codeAlpha3" : "EGY",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "ER",
+      "codeAlpha3" : "ERI",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "ES",
+      "codeAlpha3" : "ESP",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "EE",
+      "codeAlpha3" : "EST",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "ET",
+      "codeAlpha3" : "ETH",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "FI",
+      "codeAlpha3" : "FIN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "FJ",
+      "codeAlpha3" : "FJI",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "FR",
+      "codeAlpha3" : "FRA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "FO",
+      "codeAlpha3" : "FRO",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "FM",
+      "codeAlpha3" : "FSM",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "GA",
+      "codeAlpha3" : "GAB",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GB",
+      "codeAlpha3" : "GBR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "GE",
+      "codeAlpha3" : "GEO",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GG",
+      "codeAlpha3" : "GGY",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "GH",
+      "codeAlpha3" : "GHA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GI",
+      "codeAlpha3" : "GIB",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GN",
+      "codeAlpha3" : "GIN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "GM",
+      "codeAlpha3" : "GMB",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "GW",
+      "codeAlpha3" : "GNB",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GQ",
+      "codeAlpha3" : "GNQ",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "GR",
+      "codeAlpha3" : "GRC",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GD",
+      "codeAlpha3" : "GRD",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "GL",
+      "codeAlpha3" : "GRL",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "GT",
+      "codeAlpha3" : "GTM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "GY",
+      "codeAlpha3" : "GUY",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "HK",
+      "codeAlpha3" : "HKG",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "HN",
+      "codeAlpha3" : "HND",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "HR",
+      "codeAlpha3" : "HRV",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "HT",
+      "codeAlpha3" : "HTI",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "HU",
+      "codeAlpha3" : "HUN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "ID",
+      "codeAlpha3" : "IDN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "IM",
+      "codeAlpha3" : "IMN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "IN",
+      "codeAlpha3" : "IND",
+      "documents" : [
+        "PASSPORT",
+        "AADHAAR",
+        "PAN"
+      ]
+    },
+    {
+      "codeAlpha2" : "IE",
+      "codeAlpha3" : "IRL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "IR",
+      "codeAlpha3" : "IRN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "IQ",
+      "codeAlpha3" : "IRQ",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "IS",
+      "codeAlpha3" : "ISL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "IL",
+      "codeAlpha3" : "ISR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "IT",
+      "codeAlpha3" : "ITA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "JM",
+      "codeAlpha3" : "JAM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "JE",
+      "codeAlpha3" : "JEY",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "JO",
+      "codeAlpha3" : "JOR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "JP",
+      "codeAlpha3" : "JPN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "KZ",
+      "codeAlpha3" : "KAZ",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KE",
+      "codeAlpha3" : "KEN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KG",
+      "codeAlpha3" : "KGZ",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KH",
+      "codeAlpha3" : "KHM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KI",
+      "codeAlpha3" : "KIR",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "KN",
+      "codeAlpha3" : "KNA",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "KR",
+      "codeAlpha3" : "KOR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "KW",
+      "codeAlpha3" : "KWT",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "LA",
+      "codeAlpha3" : "LAO",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "LB",
+      "codeAlpha3" : "LBN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "LR",
+      "codeAlpha3" : "LBR",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "LY",
+      "codeAlpha3" : "LBY",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "LI",
+      "codeAlpha3" : "LIE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "LK",
+      "codeAlpha3" : "LKA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "LS",
+      "codeAlpha3" : "LSO",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "LT",
+      "codeAlpha3" : "LTU",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "LU",
+      "codeAlpha3" : "LUX",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "LV",
+      "codeAlpha3" : "LVA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MO",
+      "codeAlpha3" : "MAC",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "MA",
+      "codeAlpha3" : "MAR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MC",
+      "codeAlpha3" : "MCO",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MD",
+      "codeAlpha3" : "MDA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MG",
+      "codeAlpha3" : "MDG",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "MV",
+      "codeAlpha3" : "MDV",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "MX",
+      "codeAlpha3" : "MEX",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MK",
+      "codeAlpha3" : "MKD",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "ML",
+      "codeAlpha3" : "MLI",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "MT",
+      "codeAlpha3" : "MLT",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MM",
+      "codeAlpha3" : "MMR",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "ME",
+      "codeAlpha3" : "MNE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MN",
+      "codeAlpha3" : "MNG",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MZ",
+      "codeAlpha3" : "MOZ",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MR",
+      "codeAlpha3" : "MRT",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "MS",
+      "codeAlpha3" : "MSR",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "MU",
+      "codeAlpha3" : "MUS",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "MW",
+      "codeAlpha3" : "MWI",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "MY",
+      "codeAlpha3" : "MYS",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "MYKAD"
+      ]
+    },
+    {
+      "codeAlpha2" : "NA",
+      "codeAlpha3" : "NAM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "NE",
+      "codeAlpha3" : "NER",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "NG",
+      "codeAlpha3" : "NGA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "NI",
+      "codeAlpha3" : "NIC",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "NL",
+      "codeAlpha3" : "NLD",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "NO",
+      "codeAlpha3" : "NOR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "NP",
+      "codeAlpha3" : "NPL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "NR",
+      "codeAlpha3" : "NRU",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "NZ",
+      "codeAlpha3" : "NZL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "OM",
+      "codeAlpha3" : "OMN",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "PK",
+      "codeAlpha3" : "PAK",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "PA",
+      "codeAlpha3" : "PAN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "PE",
+      "codeAlpha3" : "PER",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "PH",
+      "codeAlpha3" : "PHL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID",
+        "SSS_ID",
+        "POSTAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "PW",
+      "codeAlpha3" : "PLW",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "PG",
+      "codeAlpha3" : "PNG",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "PL",
+      "codeAlpha3" : "POL",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "KP",
+      "codeAlpha3" : "PRK",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "PT",
+      "codeAlpha3" : "PRT",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "PY",
+      "codeAlpha3" : "PRY",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "PS",
+      "codeAlpha3" : "PSE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "QA",
+      "codeAlpha3" : "QAT",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "RO",
+      "codeAlpha3" : "ROU",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "RU",
+      "codeAlpha3" : "RUS",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "RW",
+      "codeAlpha3" : "RWA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SA",
+      "codeAlpha3" : "SAU",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SD",
+      "codeAlpha3" : "SDN",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "SN",
+      "codeAlpha3" : "SEN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SG",
+      "codeAlpha3" : "SGP",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SB",
+      "codeAlpha3" : "SLB",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "SL",
+      "codeAlpha3" : "SLE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SV",
+      "codeAlpha3" : "SLV",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SM",
+      "codeAlpha3" : "SMR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "RS",
+      "codeAlpha3" : "SRB",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SS",
+      "codeAlpha3" : "SSD",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "ST",
+      "codeAlpha3" : "STP",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "SR",
+      "codeAlpha3" : "SUR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "SK",
+      "codeAlpha3" : "SVK",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SI",
+      "codeAlpha3" : "SVN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SE",
+      "codeAlpha3" : "SWE",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "SC",
+      "codeAlpha3" : "SYC",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "SY",
+      "codeAlpha3" : "SYR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "TC",
+      "codeAlpha3" : "TCA",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "TD",
+      "codeAlpha3" : "TCD",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "TG",
+      "codeAlpha3" : "TGO",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "TH",
+      "codeAlpha3" : "THA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "TJ",
+      "codeAlpha3" : "TJK",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "TM",
+      "codeAlpha3" : "TKM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "TL",
+      "codeAlpha3" : "TLS",
+      "documents" : [
+        "PASSPORT",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "TO",
+      "codeAlpha3" : "TON",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "TT",
+      "codeAlpha3" : "TTO",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "TN",
+      "codeAlpha3" : "TUN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "TR",
+      "codeAlpha3" : "TUR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "TV",
+      "codeAlpha3" : "TUV",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "TW",
+      "codeAlpha3" : "TWN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "TZ",
+      "codeAlpha3" : "TZA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "UG",
+      "codeAlpha3" : "UGA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "UA",
+      "codeAlpha3" : "UKR",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "UY",
+      "codeAlpha3" : "URY",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "US",
+      "codeAlpha3" : "USA",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "STATE_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "UZ",
+      "codeAlpha3" : "UZB",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "VA",
+      "codeAlpha3" : "VAT",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "VC",
+      "codeAlpha3" : "VCT",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "VE",
+      "codeAlpha3" : "VEN",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "VG",
+      "codeAlpha3" : "VGB",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "VN",
+      "codeAlpha3" : "VNM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "VU",
+      "codeAlpha3" : "VUT",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "WS",
+      "codeAlpha3" : "WSM",
+      "documents" : [
+        "PASSPORT"
+      ]
+    },
+    {
+      "codeAlpha2" : "XK",
+      "codeAlpha3" : "XKX",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "YE",
+      "codeAlpha3" : "YEM",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "ZA",
+      "codeAlpha3" : "ZAF",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE",
+        "NATIONAL_ID"
+      ]
+    },
+    {
+      "codeAlpha2" : "ZM",
+      "codeAlpha3" : "ZMB",
+      "documents" : [
+        "PASSPORT",
+        "DRIVING_LICENCE"
+      ]
+    },
+    {
+      "codeAlpha2" : "ZW",
+      "codeAlpha3" : "ZWE",
+      "documents" : [
+        "PASSPORT"
+      ]
+    }
+  ],
+  "version" : 3.2
+}

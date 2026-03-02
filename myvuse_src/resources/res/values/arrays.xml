@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="crypto_fingerprint_fallback_prefixes">
+        <item>SM-G95</item>
+        <item>SM-G96</item>
+        <item>SM-G97</item>
+        <item>SM-N95</item>
+        <item>SM-N96</item>
+        <item>SM-N97</item>
+        <item>SM-A20</item>
+    </array>
+    <array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </array>
+    <array name="debug_colors">
+        <item>0xffff0000</item>
+        <item>0xff00ff00</item>
+        <item>0xff0000ff</item>
+        <item>0xffffff00</item>
+        <item>0xffff00ff</item>
+        <item>0xffff8080</item>
+        <item>0xff80ff80</item>
+        <item>0xff8080ff</item>
+        <item>0xffffff80</item>
+        <item>0xffff80ff</item>
+        <item>0xff80ffff</item>
+        <item>0xff800000</item>
+        <item>0xff008000</item>
+        <item>0xff000080</item>
+        <item>0xff808000</item>
+        <item>0xff800080</item>
+        <item>0xff008080</item>
+    </array>
+    <array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-G97</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SM-N97</item>
+        <item>SC-01M</item>
+        <item>SCV45</item>
+    </array>
+    <array name="multiple_choice_ids">
+        <item>@id/multiple_choice_1</item>
+        <item>@id/multiple_choice_2</item>
+        <item>@id/multiple_choice_3</item>
+        <item>@id/multiple_choice_4</item>
+        <item>@id/multiple_choice_5</item>
+        <item>@id/multiple_choice_6</item>
+        <item>@id/multiple_choice_7</item>
+        <item>@id/multiple_choice_8</item>
+        <item>@id/multiple_choice_9</item>
+        <item>@id/multiple_choice_10</item>
+        <item>@id/multiple_choice_11</item>
+    </array>
+</resources>

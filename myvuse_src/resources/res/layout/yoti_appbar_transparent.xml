@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:elevation="0dp">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize">
+        <TextView
+            android:textAppearance="@style/Yoti.v4.TextAppearance.Contrast"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/Yoti.v4.Typography.Title.Regular"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="?attr/tab_selected"
+        app:tabSelectedTextColor="?attr/tab_selected"
+        app:tabTextAppearance="@style/Yoti.v4.Typography.Title.Small"
+        app:tabTextColor="?attr/typography_inverted"/>
+    <View
+        android:id="@+id/appbarSeparator"
+        android:background="?attr/border_nav"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</com.google.android.material.appbar.AppBarLayout>

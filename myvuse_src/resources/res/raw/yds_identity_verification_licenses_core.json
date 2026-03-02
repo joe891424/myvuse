@@ -1,0 +1,94 @@
+{
+   "dependencies":[
+      {
+         "name":"androidx.appcompat:appcompat",
+         "project_url":"https://android.googlesource.com/platform/frameworks/support/",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 The Android Open Source Project"
+      },
+      {
+         "name":"androidx.constraintlayout:constraintlayout",
+         "project_url":"https://android.googlesource.com/platform/frameworks/support/",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 The Android Open Source Project"
+      },
+      {
+         "name":"androidx.lifecycle:lifecycle-viewmodel-ktx",
+         "project_url":"https://android.googlesource.com/platform/frameworks/support/",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 The Android Open Source Project"
+      },
+      {
+         "name":"androidx.lifecycle:lifecycle-viewmodel-savedstate",
+         "project_url":"https://android.googlesource.com/platform/frameworks/support/",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 The Android Open Source Project"
+      },
+      {
+         "name":"androidx.navigation:navigation-fragment",
+         "project_url":"https://android.googlesource.com/platform/frameworks/support/",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 The Android Open Source Project"
+      },
+      {
+         "name":"androidx.swiperefreshlayout:swiperefreshlayout",
+         "project_url":"https://android.googlesource.com/platform/frameworks/support/",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 The Android Open Source Project"
+      },
+      {
+         "name":"com.airbnb.android:lottie",
+         "project_url":"https://github.com/airbnb/lottie-android",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2020 Airbnb, Inc."
+      },
+      {
+         "name":"com.google.android.material:material",
+         "project_url":"https://github.com/material-components/material-components-android",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright (C) 2021 The Android Open Source Project"
+      },
+      {
+         "name":"com.google.dagger:dagger",
+         "project_url":"https://github.com/google/dagger",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright (C) 2019 The Dagger Authors."
+      },
+      {
+         "name":"com.googlecode.libphonenumber:libphonenumber",
+         "project_url":"https://github.com/google/libphonenumber",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright (C) 2017 The Libphonenumber Authors."
+      },
+      {
+         "name":"com.squareup.retrofit2:retrofit",
+         "project_url":"https://github.com/square/retrofit",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright (C) 2020 Square, Inc."
+      },
+      {
+         "name":"com.squareup.okhttp3:okhttp",
+         "project_url":"https://github.com/square/okhttp",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright (C) 2020 Square, Inc."
+      },
+      {
+         "name":"io.reactivex.rxjava2:rxkotlin",
+         "project_url":"https://github.com/ReactiveX/RxKotlin",
+         "license_name":"Apache-2.0",
+         "copyright_notice":""
+      },
+      {
+         "name":"io.reactivex.rxjava2:rxandroid",
+         "project_url":"https://github.com/ReactiveX/RxAndroid",
+         "license_name":"Apache-2.0",
+         "copyright_notice":""
+      },
+      {
+         "name":"org.jetbrains.kotlinx:kotlinx-coroutines-android",
+         "project_url":"https://github.com/Kotlin/kotlinx.coroutines",
+         "license_name":"Apache-2.0",
+         "copyright_notice":"Copyright 2016-2020 JetBrains"
+      }
+   ]
+}
